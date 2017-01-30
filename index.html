@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="MenuApp">
+
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+    
+    
+    <script src="src/MenuItem/menuapp.module.js"></script>
+    <script src="src/MenuItem/data.module.js"></script>
+    <script src="src/routes.js"></script>
+    <script src="src/MenuItem/categories.component.js"></script>
+    <script src="src/MenuItem/categories.controller.js"></script>
+    <script src="src/MenuItem/items.component.js"></script>
+    <script src="src/MenuItem/items.controller.js"></script>
+    <!-- Data module artifacts -->
+	
+    <script src="src/MenuItem/menudata.service.js"></script>
+   
+  </head>
+
+  <body>
+    <ui-view></ui-view>
+  </body>
+
+</html>
